@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>FitForge Pro</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header>
+
+      <h1>🏋️ FitForge Pro</h1>
+
+      <p class="quote" id="quote"></p>
+
+    </header>
+
+    <section class="controls">
+
+      <label for="type">Workout Type</label>
+
+      <select id="type">
+
+        <option value="cardio">Cardio</option>
+
+        <option value="strength">Strength</option>
+
+        <option value="flexibility">Flexibility</option>
+
+      </select>
+
+      <label for="duration">Duration (minutes)</label>
+
+      <input type="number" id="duration" placeholder="e.g. 15" />
+
+      <button id="startBtn">Start Workout</button>
+
+    </section>
+
+    <section class="routine">
+
+      <h2>Your Routine</h2>
+
+      <ul id="routineList"></ul>
+
+    </section>
+
+    <section class="timer">
+
+      <h2>⏱️ Timer</h2>
+
+      <div id="timerDisplay">Ready</div>
+
+    </section>
+
+    <footer>
+
+      <p id="streak">Streak: 0 days</p>
+
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
